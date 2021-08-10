@@ -44,7 +44,7 @@ if data is None:
     curs.execute("INSERT INTO adm VALUES(?, ?, ?, ?)", ('0', '123456', '0', 'adm'))
     con.commit()
 
-bot_token = '1640553110:AAEW_5GFusYxU1aQPV9ap4yfY2aaIqwgJYo'
+bot_token = 'Token'
 
 bot=telebot.TeleBot(token=bot_token)
 
